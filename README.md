@@ -1,5 +1,8 @@
 # website
 
+## Description
+A personal website written using Vue.js to display projects I've worked on.
+
 ## Project setup
 ```
 npm install
