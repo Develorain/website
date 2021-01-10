@@ -23,13 +23,13 @@ export default {
                     id: 1,
                     title: "illumination",
                     description: "physics simulation",
-                    language: ["java"]
+                    languages: ["Java"]
                 },
                 {
                     id: 2,
                     title: "quicklib",
                     description: "reservation system",
-                    language: ["javascript", "react"]
+                    languages: ["Javascript", "React"]
                 }
             ]
         }

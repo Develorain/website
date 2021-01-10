@@ -1,9 +1,11 @@
 <template>
+<div>
     <p>
         {{project.title}}<br>
         {{project.description}}<br>
-        {{project.language}}
+        {{project.languages}}
     </p>
+</div>
 </template>
 
 <script>
