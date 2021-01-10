@@ -29,7 +29,19 @@ export default {
                     id: 2,
                     title: "quicklib",
                     description: "reservation system",
-                    languages: ["Javascript", "React"]
+                    languages: ["Javascript", "ReactJS"]
+                },
+                {
+                    id: 3,
+                    title: "coupled-motion-simulator",
+                    description: "physics simulation",
+                    languages: ["Java", "Swing"]
+                },
+                {
+                    id: 4,
+                    title: "fractal",
+                    description: "graphics simulation",
+                    languages: ["F#"]
                 }
             ]
         }

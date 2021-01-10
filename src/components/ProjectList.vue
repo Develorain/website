@@ -1,35 +1,37 @@
 <template>
 <div>
-    <!-- <ProjectFilter/> -->
     <p>Projects</p>
     <input type="checkbox" id="java" value="Java" v-model="checkedLanguages">
     <label for="java">Java</label>
     <input type="checkbox" id="javascript" value="Javascript" v-model="checkedLanguages">
     <label for="javascript">Javascript</label>
-    <input type="checkbox" id="react" value="React" v-model="checkedLanguages">
-    <label for="react">React</label>
-
-    <br>
-    <span>Checked languages: {{checkedLanguages}}</span>
-
-    <!-- <div v-bind:key="project.id" v-for="project in filteredProjects">
-        <p>POG: {{project.title}}</p>
-    </div> -->
-    <!-- <div>
-        Filtered projects language: {{this.filteredProjects}}
-    </div> -->
+    <input type="checkbox" id="reactjs" value="ReactJS" v-model="checkedLanguages">
+    <label for="reactjs">ReactJS</label>
+    <input type="checkbox" id="f#" value="F#" v-model="checkedLanguages">
+    <label for="f#">F#</label>
+    <input type="checkbox" id="python" value="Python" v-model="checkedLanguages">
+    <label for="python">Python</label>
+    <input type="checkbox" id="vuejs" value="VueJS" v-model="checkedLanguages">
+    <label for="vuejs">VueJS</label>
+    <input type="checkbox" id="nodejs" value="NodeJS" v-model="checkedLanguages">
+    <label for="nodejs">NodeJS</label>
+    <input type="checkbox" id="bootstrap" value="Bootstrap" v-model="checkedLanguages">
+    <label for="bootstrap">Bootstrap</label>
+    <input type="checkbox" id="angular" value="Angular" v-model="checkedLanguages">
+    <label for="angular">Angular</label>
+    <input type="checkbox" id="postgresql" value="PostgreSQL" v-model="checkedLanguages">
+    <label for="postgresql">PostgreSQL</label>
+    <input type="checkbox" id="swing" value="Swing" v-model="checkedLanguages">
+    <label for="swing">Swing</label>
 
     <div v-bind:key="project.id" v-for="project in filteredProjects">
-        <!-- <div v-if="project.language.indexOf(checkedLanguages) !== -1"> -->
-            <Project v-bind:project="project"/>
-        <!-- </div> -->
+        <Project v-bind:project="project"/>
     </div>
 </div>
 </template>
 
 <script>
 import Project from "./Project.vue"
-// import ProjectFilter from "./ProjectFilter.vue"
 
 export default {
     name: "ProjectList",
@@ -63,5 +65,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
